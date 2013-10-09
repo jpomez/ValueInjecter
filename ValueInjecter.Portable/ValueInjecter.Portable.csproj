@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F146301A-2529-44E8-87F2-935ABDBE2BD4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ValueInjecter.Portable</RootNamespace>
+    <AssemblyName>ValueInjecter.Portable</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile4</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\ValueInjecter\ConventionInjection.cs">
+      <Link>ConventionInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\CustomizableValueInjection.cs">
+      <Link>CustomizableValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\DescriptorTools.cs">
+      <Link>DescriptorTools.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\ExactValueInjection.cs">
+      <Link>ExactValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\Extensions.cs">
+      <Link>Extensions.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\FlatLoopValueInjection.cs">
+      <Link>FlatLoopValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\IKnownSourceValueInjection.cs">
+      <Link>IKnownSourceValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\INoSourceValueInjection.cs">
+      <Link>INoSourceValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\IValueInjecter.cs">
+      <Link>IValueInjecter.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\KnownSourceValueInjection.cs">
+      <Link>KnownSourceValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\KnownTargetValueInjection.cs">
+      <Link>KnownTargetValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\LoopValueInjection.cs">
+      <Link>LoopValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\LoopValueInjectionBase.cs">
+      <Link>LoopValueInjectionBase.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\NoSourceValueInjection.cs">
+      <Link>NoSourceValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\PrefixedValueInjection.cs">
+      <Link>PrefixedValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\PropertyInfosStorage.cs">
+      <Link>PropertyInfosStorage.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\PropertyWithComponent.cs">
+      <Link>PropertyWithComponent.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\SameNameType.cs">
+      <Link>SameNameType.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\SmartConventionInjection.cs">
+      <Link>SmartConventionInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\StaticValueInjecter.cs">
+      <Link>StaticValueInjecter.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\TrailFinder.cs">
+      <Link>TrailFinder.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\Tunnelier.cs">
+      <Link>Tunnelier.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\UberFlatter.cs">
+      <Link>UberFlatter.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\UnflatLoopValueInjection.cs">
+      <Link>UnflatLoopValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\ValueInjecter.cs">
+      <Link>ValueInjecter.cs</Link>
+    </Compile>
+    <Compile Include="..\ValueInjecter\ValueInjection.cs">
+      <Link>ValueInjection.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+D:\Sources\External sources\ValueInjecter\ValueInjecter.CF35\ValueInjecter.CF35.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\Sources\External sources\ValueInjecter\ValueInjecter.CF35\ValueInjecter.CF35.Tests\bin\Debug\ValueInjecter.CF35.Tests.dll
+D:\Sources\External sources\ValueInjecter\ValueInjecter.CF35\ValueInjecter.CF35.Tests\bin\Debug\ValueInjecter.CF35.Tests.pdb
+D:\Sources\External sources\ValueInjecter\ValueInjecter.CF35\ValueInjecter.CF35.Tests\bin\Debug\nunit.framework.dll
+D:\Sources\External sources\ValueInjecter\ValueInjecter.CF35\ValueInjecter.CF35.Tests\bin\Debug\ValueInjecter.CF35.dll
+D:\Sources\External sources\ValueInjecter\ValueInjecter.CF35\ValueInjecter.CF35.Tests\bin\Debug\ValueInjecter.CF35.pdb
+D:\Sources\External sources\ValueInjecter\ValueInjecter.CF35\ValueInjecter.CF35.Tests\obj\Debug\ValueInjecter.CF35.Tests.dll
+D:\Sources\External sources\ValueInjecter\ValueInjecter.CF35\ValueInjecter.CF35.Tests\obj\Debug\ValueInjecter.CF35.Tests.pdb
